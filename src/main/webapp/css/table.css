@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.listTable {
+	width : 900px;
+	text-align: center;
+	background-color: #F2F2F2;
+	border-spacing: 0px;
+}
+
+th {
+	border-top : 1px black solid;
+	border-bottom : 1px  black solid;
+	background-color: white;
+	font-weight: bold;
+}
+
+tr {
+	border-bottom : 1px solid gray;
+}
+
+
+tr:nth-child(2) {
+	background-color : white;
+}
+tr:nth-child(4) {
+	background-color : white;
+}
+tr:nth-child(6) {
+	background-color : white;
+}
